@@ -47,6 +47,9 @@ for i in range(len(equations)):
         
 print("----------------------------------------------------------------------------------------------") 
 S = [2,4,5,9,12]
+total = 0
+for t in S:
+    total+=t
 print("Set: ", S)
 print("Subsets that add up the same integer: ")
 subset2 = []
